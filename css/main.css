@@ -1683,7 +1683,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #0fff8f;
+  background: #25862f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2595,4 +2595,7 @@ ul.breadcrumb li + li:last-child {
 }
 .posts-expand .post-meta {
   margin-bottom: 3px;
+}
+#busuanzi_container_page_pv {
+  display: inline !important;
 }
