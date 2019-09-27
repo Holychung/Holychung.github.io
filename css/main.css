@@ -1134,7 +1134,7 @@ pre .javascript .function {
 .post-body {
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: '10px', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (min-width: 1200px) {
   .post-body {
@@ -1420,7 +1420,7 @@ article:last-child .post-eof {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: '10px', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   margin: 3px 0 60px 0;
   text-align: center;
 }
@@ -1683,7 +1683,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #d0ffff;
+  background: #0fff8f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2574,7 +2574,7 @@ ul.breadcrumb li + li:last-child {
   border-radius: initial;
   margin-bottom: 12px;
 }
-.content-wrap .post-footer {
+.content-wrap .post-eof {
   display: none;
 }
 #posts {
@@ -2589,4 +2589,10 @@ ul.breadcrumb li + li:last-child {
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   border-radius: initial;
+}
+.pace-done {
+  font-size: 0.9em;
+}
+.posts-expand .post-meta {
+  margin-bottom: 3px;
 }
