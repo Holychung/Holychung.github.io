@@ -193,7 +193,7 @@ h6 {
   font-size: 1.125em;
 }
 p {
-  margin: 0 0 20px 0;
+  margin: 10px 0 0 0;
 }
 a,
 span.exturl {
@@ -1683,7 +1683,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #69f614;
+  background: #ffe8f6;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2604,6 +2604,7 @@ ul.breadcrumb li + li:last-child {
 }
 img {
   border: none !important;
+  margin-bottom: 0px !important;
 }
 .site-author-image {
   margin-bottom: 5px;
