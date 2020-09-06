@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 3.9.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.4.0">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.4.0" color="#222">
+
+<link rel="stylesheet" href="/css/main.css?v=7.4.0">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|10px:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.4.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="前情提要 此為唐鳳在交大線上演講內容的一些紀錄、懶人包，沒有紀錄所有的問題，大多是我覺得重要且收穫良多的問題。">
+<meta name="keywords" content="唐鳳,演講">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【演講】2020 唐鳳 交大線上演講紀錄">
+<meta property="og:url" content="http://yoursite.com/2020/06/14/【演講】2020-唐鳳-交大線上演講紀錄/index.html">
+<meta property="og:site_name" content="Holy">
+<meta property="og:description" content="前情提要 此為唐鳳在交大線上演講內容的一些紀錄、懶人包，沒有紀錄所有的問題，大多是我覺得重要且收穫良多的問題。">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2020-06-14T15:30:09.383Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="【演講】2020 唐鳳 交大線上演講紀錄">
+<meta name="twitter:description" content="前情提要 此為唐鳳在交大線上演講內容的一些紀錄、懶人包，沒有紀錄所有的問題，大多是我覺得重要且收穫良多的問題。">
+  <link rel="canonical" href="http://yoursite.com/2020/06/14/【演講】2020-唐鳳-交大線上演講紀錄/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>【演講】2020 唐鳳 交大線上演講紀錄 | Holy</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <div class="container use-motion">
+    <div class="headband"></div>
+    <a href="https://github.com/Holychung" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Holy</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">☀</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-about">
+      
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+            
+
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+      <article itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block post">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/06/14/【演講】2020-唐鳳-交大線上演講紀錄/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Holy Chung">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Holy">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">【演講】2020 唐鳳 交大線上演講紀錄
+
+          
+        </h1>
+
+        <div class="post-meta">
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              
+                
+              
+
+              <time title="Created: 2020-06-14 22:33:53 / Modified: 23:30:09" itemprop="dateCreated datePublished" datetime="2020-06-14T22:33:53+08:00">2020-06-14</time>
+            </span>
+          
+            
+
+            
+          
+
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+          
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              
+              <span>3.7k</span>
+            </span>
+          
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              
+              <span>6 mins.</span>
+            </span>
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="前情提要"><a href="#前情提要" class="headerlink" title="前情提要"></a>前情提要</h3><ul>
+<li>此為唐鳳在交大線上演講內容的一些紀錄、懶人包，沒有紀錄所有的問題，大多是我覺得重要且收穫良多的問題。<a id="more"></a>
+
+</li>
+</ul>
+<h3 id="相關連結"><a href="#相關連結" class="headerlink" title="相關連結"></a>相關連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=wSnFHaxFSdM" target="_blank" rel="noopener">唐鳳完整直播連結</a></li>
+<li><a href="https://app.sli.do/event/gzduhvro/live/questions" target="_blank" rel="noopener">Slido 連結</a></li>
+</ul>
+<h3 id="問題紀錄"><a href="#問題紀錄" class="headerlink" title="問題紀錄"></a>問題紀錄</h3><h5 id="Q-擔任顧問的工作內容是甚麼，可以簡單介紹一下嗎"><a href="#Q-擔任顧問的工作內容是甚麼，可以簡單介紹一下嗎" class="headerlink" title="Q: 擔任顧問的工作內容是甚麼，可以簡單介紹一下嗎?"></a>Q: 擔任顧問的工作內容是甚麼，可以簡單介紹一下嗎?</h5><p>不像工程師或一般的職業有很清楚的JD，要怎麼樣才能擔任顧問這個職位呢，有沒有可以努力的方向?<br>擔任蘋果公司跟開源社群的橋樑，蘋果也有用到很多開放原始碼的技術，像 bsd，這個社群沒有限制商業的利用<br>蘋果會想說開放原始碼社群的朋友有甚麼新的貢獻，或是自己能貢獻甚麼回去，中間的對口就會需要這個資深的社群住民來當他們的嚮導，顧問這個其實是兩邊的職位，用甚麼樣的方式，可以讓開源社群和蘋果不做到重複的工作，並且也能說服蘋果的開發者能更公開，讓蘋果那邊更知道開放社群做的方法，往開放社群交代讓蘋果能變得更正向。<br>技術上屬於 independent concept 不屬於各個部門<br>努力的方向的話，最重要的是「分析問題的能力」，和一個困難的問題長期相處的能力，會看到不同立場的人會怎麼去面對這個問題，最後整理出大家都好的共同價值。大部分的顧問工作是「傾聽」，而不是由上而下的命令或拍桌子。<br>傾聽跟整合不同價值的能力是很重要的。</p>
+<h5 id="Q-在資訊的領域，通常畢業後的工作環境都很封閉，有沒有甚麼方法可以讓自己可以跳脫出自己的同溫層，持續拓展人脈認識不同領域的人。"><a href="#Q-在資訊的領域，通常畢業後的工作環境都很封閉，有沒有甚麼方法可以讓自己可以跳脫出自己的同溫層，持續拓展人脈認識不同領域的人。" class="headerlink" title="Q: 在資訊的領域，通常畢業後的工作環境都很封閉，有沒有甚麼方法可以讓自己可以跳脫出自己的同溫層，持續拓展人脈認識不同領域的人。"></a>Q: 在資訊的領域，通常畢業後的工作環境都很封閉，有沒有甚麼方法可以讓自己可以跳脫出自己的同溫層，持續拓展人脈認識不同領域的人。</h5><p>增進數位方面的素養，如果說資通訊是基礎的技術層，數位就是上面的文化應用層。<br>多接觸開放社群，能認識更多的人。g0v 社群也是，幾乎都沒有限制。</p>
+<h5 id="Q-我是資工系的學生，但我發現越來越多其他科系都需要會coding，也都能透過自學學會，加上現在台灣的資工系越來越少人在學底層像是機器語言的東西，我想問要怎麼樣才不會讓自己畢業後變成只是比較會coding的工程師，能夠與其他人做出區別"><a href="#Q-我是資工系的學生，但我發現越來越多其他科系都需要會coding，也都能透過自學學會，加上現在台灣的資工系越來越少人在學底層像是機器語言的東西，我想問要怎麼樣才不會讓自己畢業後變成只是比較會coding的工程師，能夠與其他人做出區別" class="headerlink" title="Q: 我是資工系的學生，但我發現越來越多其他科系都需要會coding，也都能透過自學學會，加上現在台灣的資工系越來越少人在學底層像是機器語言的東西，我想問要怎麼樣才不會讓自己畢業後變成只是比較會coding的工程師，能夠與其他人做出區別"></a>Q: 我是資工系的學生，但我發現越來越多其他科系都需要會coding，也都能透過自學學會，加上現在台灣的資工系越來越少人在學底層像是機器語言的東西，我想問要怎麼樣才不會讓自己畢業後變成只是比較會coding的工程師，能夠與其他人做出區別</h5><p>一個真正的工程師在別的領域的工程師，你對甚麼感興趣，你對應用感興趣就要面對人，離人越來越近，就位更知道如何運用，並且用資工的思維去看這個世界。如果對資訊科學有興趣，就可能要花一點時間去了解背後的理論去理解。<br>先問自己對人有興趣還是理論，或是協槓一下，要花很多時間去鑽研很難兼得。</p>
+<h5 id="Q-在資工有非常多的領域可以專精，對於一個大學生來說該如何選擇自己未來的領域。"><a href="#Q-在資工有非常多的領域可以專精，對於一個大學生來說該如何選擇自己未來的領域。" class="headerlink" title="Q: 在資工有非常多的領域可以專精，對於一個大學生來說該如何選擇自己未來的領域。"></a>Q: 在資工有非常多的領域可以專精，對於一個大學生來說該如何選擇自己未來的領域。</h5><p>看你想創造甚麼影響力，你有沒有特別關心的人事時地物，學習動機，一個能夠促使你的誘因想要了解的東西，學習動機是從內心裡面來，而不是從外在老師社會家人等。<br>能夠讓你感到好奇的來源。</p>
+<h5 id="Q-如何完美的時間規劃"><a href="#Q-如何完美的時間規劃" class="headerlink" title="Q: 如何完美的時間規劃"></a>Q: 如何完美的時間規劃</h5><p>不要有完美主義，不然很難有好的時間規劃。你對你所做出來的東西品質有完美主義的話就很容易會有拖延的可能，因為不到最後一刻非交出來不可的時候，而且還不識很滿意，會一改再改千錘百鍊，也不願意提早跟別人分享讓別人看到。<br>但是「萬事萬物都有缺口，缺口就是光的入口。」，你如果回答是完美無瑕的，對方反而跟你沒有對話的空間，或是你的作品也是，講話或是作品有時候有一點缺陷，反而會創造一些梗。<br>假設你自己一個人解決問題的話可能有可能吧。<br>release early, release often! 盡快發表盡早發表</p>
+<h5 id="Q-想請教唐鳳認為，現在程式設計與人工智慧越來越紅，108課綱中也將程式設計列入高中必修的範圍內，大學非理工科系也開始開設基礎程式課。您認為，每個人都應該要學程式設計嗎？如果是，應該學到什麼程度，或應該把目標設在什麼地方？應該是鍛鍊邏輯斯文，還是學會用程式解決問題的方法？若否，原因為何？謝謝！"><a href="#Q-想請教唐鳳認為，現在程式設計與人工智慧越來越紅，108課綱中也將程式設計列入高中必修的範圍內，大學非理工科系也開始開設基礎程式課。您認為，每個人都應該要學程式設計嗎？如果是，應該學到什麼程度，或應該把目標設在什麼地方？應該是鍛鍊邏輯斯文，還是學會用程式解決問題的方法？若否，原因為何？謝謝！" class="headerlink" title="Q: 想請教唐鳳認為，現在程式設計與人工智慧越來越紅，108課綱中也將程式設計列入高中必修的範圍內，大學非理工科系也開始開設基礎程式課。您認為，每個人都應該要學程式設計嗎？如果是，應該學到什麼程度，或應該把目標設在什麼地方？應該是鍛鍊邏輯斯文，還是學會用程式解決問題的方法？若否，原因為何？謝謝！"></a>Q: 想請教唐鳳認為，現在程式設計與人工智慧越來越紅，108課綱中也將程式設計列入高中必修的範圍內，大學非理工科系也開始開設基礎程式課。您認為，每個人都應該要學程式設計嗎？如果是，應該學到什麼程度，或應該把目標設在什麼地方？應該是鍛鍊邏輯斯文，還是學會用程式解決問題的方法？若否，原因為何？謝謝！</h5><p>其實我一直覺得說這個跟每個人是不是都要學法學是一樣的道理，其實我們在立法技術上也很向設計師的工作馬，但並不是每個人學法律都是要當大法官審理釋憲案，或是立法委員等，每個人學法律主要原因是要在碰到問題的時候知道如何主張自己的權益，運用現有的法律來保護自己的權益。<br>同樣的，學程式設計只是手段，最主要的是學習運算思維和演算法，世界上有越來越多東西是靠演算法，有概念能應用或解決日常的生活就可以，學到剛剛好就好。</p>
+<h5 id="Q-文組無用論"><a href="#Q-文組無用論" class="headerlink" title="Q: 文組無用論"></a>Q: 文組無用論</h5><p>我在大學旁聽，最能夠能與我對話的都是哲學系人文學系的朋友，技術上在網路上就很容易能交流了。我甚至不知道文組事甚麼意思，但我覺得運用文學的能力是很重要的。</p>
+<h5 id="Q-要努力到什麼程度，才可以說自己真的不幸運、不適合，該放棄了？"><a href="#Q-要努力到什麼程度，才可以說自己真的不幸運、不適合，該放棄了？" class="headerlink" title="Q: 要努力到什麼程度，才可以說自己真的不幸運、不適合，該放棄了？"></a>Q: 要努力到什麼程度，才可以說自己真的不幸運、不適合，該放棄了？</h5><p>如果你現在覺得努力沒有報償的，那我覺得你設定的目標太遠大了<br>或者說一天的成果就願意分享出去，這樣就覺得不會白努力，是不適合就看你的所處在的社會環境，他會告訴你目前的努力大家用不用得到，或者是關不關心，縱使大家不關心，在網路上就算很偏門，也可以透過關鍵字來找到社群。看你想要自己努力還是大家一起努力。</p>
+<h5 id="Q-要怎麼知道自己適不適合往資工發展"><a href="#Q-要怎麼知道自己適不適合往資工發展" class="headerlink" title="Q: 要怎麼知道自己適不適合往資工發展"></a>Q: 要怎麼知道自己適不適合往資工發展</h5><p>如果你喜歡寫程式的話，我們有一個叫結蛹期，在裡面看一切的東西就好像看程式碼一樣，剛開始掌握到運算思維的精隨後，會發現習以為常的一些生活社會，都可以用一些數學的思維去詮釋，如果你有經過這一段時間，而且覺得世界因此變得更有意思了，那就恭喜你可以往資工來發展了。</p>
+<h5 id="Q-要怎麼控制別人的腦波"><a href="#Q-要怎麼控制別人的腦波" class="headerlink" title="Q: 要怎麼控制別人的腦波"></a>Q: 要怎麼控制別人的腦波</h5><p>我再次申明一下，那個是博恩的碩士論文，我想這部分可能要問真正的腦神經科學家。</p>
+<h5 id="Q-有聽人說資工的職涯壽命不長，容易被新生代取代，且相較於其他職業，必須時常學新的技術，想請問您對此看法，以及在現在資訊發達下人人皆能學程式，如何出類拔萃？"><a href="#Q-有聽人說資工的職涯壽命不長，容易被新生代取代，且相較於其他職業，必須時常學新的技術，想請問您對此看法，以及在現在資訊發達下人人皆能學程式，如何出類拔萃？" class="headerlink" title="Q: 有聽人說資工的職涯壽命不長，容易被新生代取代，且相較於其他職業，必須時常學新的技術，想請問您對此看法，以及在現在資訊發達下人人皆能學程式，如何出類拔萃？"></a>Q: 有聽人說資工的職涯壽命不長，容易被新生代取代，且相較於其他職業，必須時常學新的技術，想請問您對此看法，以及在現在資訊發達下人人皆能學程式，如何出類拔萃？</h5><p>你自己就要成為那個新生代，好比機器學習的領域每次有一篇改變世界的 paper 出現就要用一個新的想法去了解世界。<br>我們所謂資訊工程最大的差別就是，零空建造、憑空建造，資訊工程的特色不受物理材料的限制，是隨著新的社會情況出現就隨著去建模，學習的是一個後設認知（Metacognition）或譯為元認知，不斷學習，不段運用新的工具。<br>在矽谷工作的時候，很多五六十歲的人，他們是發明家，程式語言只是寫下她的發明，不斷去適應，適應更多不同的材料，在腦裡用一個結構，我們叫做 conceptual integrity<br>推薦一本書 the design of design 設計的設計，專門講這件事</p>
+<h5 id="Q-人生最終目標"><a href="#Q-人生最終目標" class="headerlink" title="Q: 人生最終目標"></a>Q: 人生最終目標</h5><p>我有自己想持手的東西，比起打幾分，我都說扣幾分<br>我的原則沒有往後退就沒有扣分，扣到一定程度就不會繼續下去<br>每天+0我是-0 持手原則，保持在自己的目標下去<br>OS我希望投票趕快改成18歲</p>
+<h5 id="Q-台灣的教育制度有甚麼問題"><a href="#Q-台灣的教育制度有甚麼問題" class="headerlink" title="Q: 台灣的教育制度有甚麼問題"></a>Q: 台灣的教育制度有甚麼問題</h5><p>問題不是在寫下來的制度上，給教育者很多空間場域。並不是法律制度的問題，而是社會常規，social norm，一定要讀大學是一個 social norm，制度上並沒有太大問題，而是社會常規。只有大家從舊的常規醒來，新的制度才能發揮它的影響力</p>
+<h5 id="Q-鼓勵大學生做甚麼來突破自己"><a href="#Q-鼓勵大學生做甚麼來突破自己" class="headerlink" title="Q: 鼓勵大學生做甚麼來突破自己"></a>Q: 鼓勵大學生做甚麼來突破自己</h5><p>走出大學XD 去挑戰你想學的東西，島內移民阿，找到不同的角度，保持學習的東基，用一個截然不同的角度去看你現在的問題! 也不會受到現有的學系框定限制。</p>
+<h5 id="Q-甚麼樣才是真愛"><a href="#Q-甚麼樣才是真愛" class="headerlink" title="Q: 甚麼樣才是真愛?"></a>Q: 甚麼樣才是真愛?</h5><p>過度理想化的部分我是希望越快離開越好，我覺得是要建立在要有相同的人生價值觀，而不適建立在一時的迷戀上。</p>
+<h5 id="Q-喜歡跟能力不一樣要如何選擇"><a href="#Q-喜歡跟能力不一樣要如何選擇" class="headerlink" title="Q: 喜歡跟能力不一樣要如何選擇?"></a>Q: 喜歡跟能力不一樣要如何選擇?</h5><p>小朋友才做選擇，用興趣讓你的能力變得更豐富更精彩</p>
+<h5 id="Q-改成線上課程的看法"><a href="#Q-改成線上課程的看法" class="headerlink" title="Q: 改成線上課程的看法?"></a>Q: 改成線上課程的看法?</h5><p>確實是自學但幾乎都不是在家，遠距工作並不是在家工作，自發學習也不是在家<br>兩者並不是背道而馳的…</p>
+<h5 id="Q-體制內資工高等教育跟自學的差別-優缺點-學位的重要性"><a href="#Q-體制內資工高等教育跟自學的差別-優缺點-學位的重要性" class="headerlink" title="Q: 體制內資工高等教育跟自學的差別 優缺點 學位的重要性"></a>Q: 體制內資工高等教育跟自學的差別 優缺點 學位的重要性</h5><p>我不知道學位重要性 你問錯人了 但這是抽樣偏誤XD<br>高等教育也有很多自學的部分，但是可以組隊打怪，有一些場域找到志同道合<br>我當年旁聽的時候也很容易找到志同道合的朋友<br>善用體制的資源也非常住要</p>
+<h5 id="Q-香港的處境，台灣青年該怎麼做"><a href="#Q-香港的處境，台灣青年該怎麼做" class="headerlink" title="Q: 香港的處境，台灣青年該怎麼做"></a>Q: 香港的處境，台灣青年該怎麼做</h5><p>看清楚國際的處境 我們在一個新的時代，我們的價值往往是對內的 集會自由 人群自由<br>在全世界變成大難的時候，變成台灣最耀眼的時候，因為疫情反而昇華<br>是甚麼讓台灣成功呢? 是這社會部門 民間的能力</p>
+<h5 id="Q-如何參與開源計畫社群"><a href="#Q-如何參與開源計畫社群" class="headerlink" title="Q: 如何參與開源計畫社群?"></a>Q: 如何參與開源計畫社群?</h5><p>簡單，看你最常用的開源工具是甚麼等<br>我最常用的就是瀏覽器，firefox preview 不滿意就去幫他做外掛，學醫些東西加入社群等</p>
+<h5 id="Q-資訊科學的浪潮-是泡沫嗎"><a href="#Q-資訊科學的浪潮-是泡沫嗎" class="headerlink" title="Q: 資訊科學的浪潮 是泡沫嗎?"></a>Q: 資訊科學的浪潮 是泡沫嗎?</h5><p>任何梗詞都是泡沫啦，只是一些炒作，遲早的會泡沫消失的<br>就算炒完了，這些技術還是會存在還是會進步</p>
+<h5 id="Q-台灣獨立有沒有希望"><a href="#Q-台灣獨立有沒有希望" class="headerlink" title="Q: 台灣獨立有沒有希望"></a>Q: 台灣獨立有沒有希望</h5><p>我相信大家都知道我的立場，台灣是在新石器時代，當氣候有所改變，台灣海峽水位上漲，就已經獨立的</p>
+<h5 id="Q-對即將畢業的大學生建議"><a href="#Q-對即將畢業的大學生建議" class="headerlink" title="Q: 對即將畢業的大學生建議"></a>Q: 對即將畢業的大學生建議</h5><p>如果你已經有你想做的工作，不管其他人說甚麼 不要理他<br>帶著一些想研究的東西，會比較有收穫<br>島內移民也是可以</p>
+<h5 id="Q-委員您好，每次聽您說話的內容，都覺得非常的順暢、有邏輯，請問這是天生的嗎？或者要怎麼樣練習才可以和您一樣呢？"><a href="#Q-委員您好，每次聽您說話的內容，都覺得非常的順暢、有邏輯，請問這是天生的嗎？或者要怎麼樣練習才可以和您一樣呢？" class="headerlink" title="Q: 委員您好，每次聽您說話的內容，都覺得非常的順暢、有邏輯，請問這是天生的嗎？或者要怎麼樣練習才可以和您一樣呢？"></a>Q: 委員您好，每次聽您說話的內容，都覺得非常的順暢、有邏輯，請問這是天生的嗎？或者要怎麼樣練習才可以和您一樣呢？</h5><p>運算思維是非常的重要，像我學函數式程式設計，我把任何東西都看做一系列的只有一個參數並且只傳回一個值的組合，而背後的價值就是他的型別，我任何東西都可以這樣看，再大的結構我都可以，大事化小小事化無，無事取天下<br>範疇論!<br>掌握一些抽象方法，在看大的規模的概念，腦裡就會有一個很清楚的圖</p>
+<h3 id="結束"><a href="#結束" class="headerlink" title="結束"></a>結束</h3><blockquote>
+<p>文章同步至 <a href="https://medium.com/@mickey94378" target="_blank" rel="noopener">Medium 平台</a></p>
+</blockquote>
+<style>
+.img-description{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 0.8rem;
+}
+</style>
+
+
+    </div>
+
+    
+    
+    
+        
+      
+      
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/tags/唐鳳/" rel="tag"><i class="fa fa-tag"></i> 唐鳳</a>
+            
+              <a href="/tags/演講/" rel="tag"><i class="fa fa-tag"></i> 演講</a>
+            
+          </div>
+        
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/2020/03/30/【修課心得】基本設計初階-蔡偉彬/" rel="next" title="【修課心得】基本設計初階 蔡偉彬">
+                  <i class="fa fa-chevron-left"></i> 【修課心得】基本設計初階 蔡偉彬
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+                <a href="/2020/06/15/【近況更新】畢業後到底要幹嘛/" rel="prev" title="【近況更新】畢業後到底要幹嘛">
+                  【近況更新】畢業後到底要幹嘛 <i class="fa fa-chevron-right"></i>
+                </a>
+              
+            </div>
+          </div>
+        
+      </footer>
+    
+
+  </div>
+  
+  
+  
+  </article>
+
+  </div>
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+        
+        
+        
+        
+      
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前情提要"><span class="nav-number">1.</span> <span class="nav-text">前情提要</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#相關連結"><span class="nav-number">2.</span> <span class="nav-text">相關連結</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#問題紀錄"><span class="nav-number">3.</span> <span class="nav-text">問題紀錄</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-擔任顧問的工作內容是甚麼，可以簡單介紹一下嗎"><span class="nav-number">3.0.1.</span> <span class="nav-text">Q: 擔任顧問的工作內容是甚麼，可以簡單介紹一下嗎?</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-在資訊的領域，通常畢業後的工作環境都很封閉，有沒有甚麼方法可以讓自己可以跳脫出自己的同溫層，持續拓展人脈認識不同領域的人。"><span class="nav-number">3.0.2.</span> <span class="nav-text">Q: 在資訊的領域，通常畢業後的工作環境都很封閉，有沒有甚麼方法可以讓自己可以跳脫出自己的同溫層，持續拓展人脈認識不同領域的人。</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-我是資工系的學生，但我發現越來越多其他科系都需要會coding，也都能透過自學學會，加上現在台灣的資工系越來越少人在學底層像是機器語言的東西，我想問要怎麼樣才不會讓自己畢業後變成只是比較會coding的工程師，能夠與其他人做出區別"><span class="nav-number">3.0.3.</span> <span class="nav-text">Q: 我是資工系的學生，但我發現越來越多其他科系都需要會coding，也都能透過自學學會，加上現在台灣的資工系越來越少人在學底層像是機器語言的東西，我想問要怎麼樣才不會讓自己畢業後變成只是比較會coding的工程師，能夠與其他人做出區別</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-在資工有非常多的領域可以專精，對於一個大學生來說該如何選擇自己未來的領域。"><span class="nav-number">3.0.4.</span> <span class="nav-text">Q: 在資工有非常多的領域可以專精，對於一個大學生來說該如何選擇自己未來的領域。</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-如何完美的時間規劃"><span class="nav-number">3.0.5.</span> <span class="nav-text">Q: 如何完美的時間規劃</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-想請教唐鳳認為，現在程式設計與人工智慧越來越紅，108課綱中也將程式設計列入高中必修的範圍內，大學非理工科系也開始開設基礎程式課。您認為，每個人都應該要學程式設計嗎？如果是，應該學到什麼程度，或應該把目標設在什麼地方？應該是鍛鍊邏輯斯文，還是學會用程式解決問題的方法？若否，原因為何？謝謝！"><span class="nav-number">3.0.6.</span> <span class="nav-text">Q: 想請教唐鳳認為，現在程式設計與人工智慧越來越紅，108課綱中也將程式設計列入高中必修的範圍內，大學非理工科系也開始開設基礎程式課。您認為，每個人都應該要學程式設計嗎？如果是，應該學到什麼程度，或應該把目標設在什麼地方？應該是鍛鍊邏輯斯文，還是學會用程式解決問題的方法？若否，原因為何？謝謝！</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-文組無用論"><span class="nav-number">3.0.7.</span> <span class="nav-text">Q: 文組無用論</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-要努力到什麼程度，才可以說自己真的不幸運、不適合，該放棄了？"><span class="nav-number">3.0.8.</span> <span class="nav-text">Q: 要努力到什麼程度，才可以說自己真的不幸運、不適合，該放棄了？</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-要怎麼知道自己適不適合往資工發展"><span class="nav-number">3.0.9.</span> <span class="nav-text">Q: 要怎麼知道自己適不適合往資工發展</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-要怎麼控制別人的腦波"><span class="nav-number">3.0.10.</span> <span class="nav-text">Q: 要怎麼控制別人的腦波</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-有聽人說資工的職涯壽命不長，容易被新生代取代，且相較於其他職業，必須時常學新的技術，想請問您對此看法，以及在現在資訊發達下人人皆能學程式，如何出類拔萃？"><span class="nav-number">3.0.11.</span> <span class="nav-text">Q: 有聽人說資工的職涯壽命不長，容易被新生代取代，且相較於其他職業，必須時常學新的技術，想請問您對此看法，以及在現在資訊發達下人人皆能學程式，如何出類拔萃？</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-人生最終目標"><span class="nav-number">3.0.12.</span> <span class="nav-text">Q: 人生最終目標</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-台灣的教育制度有甚麼問題"><span class="nav-number">3.0.13.</span> <span class="nav-text">Q: 台灣的教育制度有甚麼問題</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-鼓勵大學生做甚麼來突破自己"><span class="nav-number">3.0.14.</span> <span class="nav-text">Q: 鼓勵大學生做甚麼來突破自己</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-甚麼樣才是真愛"><span class="nav-number">3.0.15.</span> <span class="nav-text">Q: 甚麼樣才是真愛?</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-喜歡跟能力不一樣要如何選擇"><span class="nav-number">3.0.16.</span> <span class="nav-text">Q: 喜歡跟能力不一樣要如何選擇?</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-改成線上課程的看法"><span class="nav-number">3.0.17.</span> <span class="nav-text">Q: 改成線上課程的看法?</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-體制內資工高等教育跟自學的差別-優缺點-學位的重要性"><span class="nav-number">3.0.18.</span> <span class="nav-text">Q: 體制內資工高等教育跟自學的差別 優缺點 學位的重要性</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-香港的處境，台灣青年該怎麼做"><span class="nav-number">3.0.19.</span> <span class="nav-text">Q: 香港的處境，台灣青年該怎麼做</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-如何參與開源計畫社群"><span class="nav-number">3.0.20.</span> <span class="nav-text">Q: 如何參與開源計畫社群?</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-資訊科學的浪潮-是泡沫嗎"><span class="nav-number">3.0.21.</span> <span class="nav-text">Q: 資訊科學的浪潮 是泡沫嗎?</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-台灣獨立有沒有希望"><span class="nav-number">3.0.22.</span> <span class="nav-text">Q: 台灣獨立有沒有希望</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-對即將畢業的大學生建議"><span class="nav-number">3.0.23.</span> <span class="nav-text">Q: 對即將畢業的大學生建議</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-委員您好，每次聽您說話的內容，都覺得非常的順暢、有邏輯，請問這是天生的嗎？或者要怎麼樣練習才可以和您一樣呢？"><span class="nav-number">3.0.24.</span> <span class="nav-text">Q: 委員您好，每次聽您說話的內容，都覺得非常的順暢、有邏輯，請問這是天生的嗎？或者要怎麼樣練習才可以和您一樣呢？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#結束"><span class="nav-number">4.</span> <span class="nav-text">結束</span></a></li></ol></div>
+        
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image"
+      src="/images/avatar.jpg"
+      alt="Holy Chung">
+  <p class="site-author-name" itemprop="name">Holy Chung</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <nav class="site-state motion-element">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+          
+            <a href="/tags/">
+          
+        
+        <span class="site-state-item-count">34</span>
+        <span class="site-state-item-name">tags</span>
+        </a>
+      </div>
+    
+  </nav>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://github.com/Holychung" title="GitHub &rarr; https://github.com/Holychung" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://www.facebook.com/profile.php?id=100003092859714&ref=bookmarks" title="FB Page &rarr; https://www.facebook.com/profile.php?id=100003092859714&ref=bookmarks" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i>FB Page</a>
+      </span>
+    
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="post-meta-divider"></span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user-circle"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Holy Chung</span>
+
+  <!--
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">Symbols count total: </span>
+    
+    <span title="Symbols count total">42k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">Reading time total &asymp;</span>
+    
+    <span title="Reading time total">1:11</span> -->
+</div>
+
+<!-- <i class="fa fa-user-md"></i>
+<span>
+  Views <span id="busuanzi_value_site_pv"></span>
+</span>
+
+<i class="fa fa-user-md"></i>
+<span> 
+  Guests <span id="busuanzi_value_site_uv"></span>
+</span> -->
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+  
+    <span class="post-meta-divider"></span>
+  
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+
+
+  <script src="/lib/anime.min.js?v=3.1.0"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+<script src="/js/utils.js?v=7.4.0"></script><script src="/js/motion.js?v=7.4.0"></script>
+<script src="/js/schemes/pisces.js?v=7.4.0"></script>
+<script src="/js/next-boot.js?v=7.4.0"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+</body>
+</html>

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 3.9.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.4.0">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.4.0" color="#222">
+
+<link rel="stylesheet" href="/css/main.css?v=7.4.0">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|10px:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.4.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="大四上回顧 原本以為到了大四會開始擁有輕鬆一點的生活，這麼渺小的奢求看來也是我想多了。這學期不知道過了多少個早上七八點出門到晚上 12 點後回到宿舍的日子。">
+<meta name="keywords" content="交大,NCTU,CS,資工">
+<meta property="og:type" content="article">
+<meta property="og:title" content="寫給自己的故事，108上交大資工大四上回顧">
+<meta property="og:url" content="http://yoursite.com/2020/02/29/寫給自己的故事，108上交大資工大四上回顧/index.html">
+<meta property="og:site_name" content="Holy">
+<meta property="og:description" content="大四上回顧 原本以為到了大四會開始擁有輕鬆一點的生活，這麼渺小的奢求看來也是我想多了。這學期不知道過了多少個早上七八點出門到晚上 12 點後回到宿舍的日子。">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://i.imgur.com/5KTgDta.jpg">
+<meta property="og:image" content="https://i.imgur.com/5WHEi21.jpg">
+<meta property="og:updated_time" content="2020-03-04T11:14:22.126Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="寫給自己的故事，108上交大資工大四上回顧">
+<meta name="twitter:description" content="大四上回顧 原本以為到了大四會開始擁有輕鬆一點的生活，這麼渺小的奢求看來也是我想多了。這學期不知道過了多少個早上七八點出門到晚上 12 點後回到宿舍的日子。">
+<meta name="twitter:image" content="https://i.imgur.com/5KTgDta.jpg">
+  <link rel="canonical" href="http://yoursite.com/2020/02/29/寫給自己的故事，108上交大資工大四上回顧/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>寫給自己的故事，108上交大資工大四上回顧 | Holy</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <div class="container use-motion">
+    <div class="headband"></div>
+    <a href="https://github.com/Holychung" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Holy</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">☀</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-about">
+      
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+            
+
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+      <article itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block post">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/29/寫給自己的故事，108上交大資工大四上回顧/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Holy Chung">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Holy">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">寫給自己的故事，108上交大資工大四上回顧
+
+          
+        </h1>
+
+        <div class="post-meta">
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              
+                
+              
+
+              <time title="Created: 2020-02-29 15:19:00" itemprop="dateCreated datePublished" datetime="2020-02-29T15:19:00+08:00">2020-02-29</time>
+            </span>
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-03-04 19:14:22" itemprop="dateModified" datetime="2020-03-04T19:14:22+08:00">2020-03-04</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+          
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              
+              <span>2.9k</span>
+            </span>
+          
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              
+              <span>5 mins.</span>
+            </span>
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h3 id="大四上回顧"><a href="#大四上回顧" class="headerlink" title="大四上回顧"></a>大四上回顧</h3><ul>
+<li>原本以為到了大四會開始擁有輕鬆一點的生活，這麼渺小的奢求看來也是我想多了。這學期不知道過了多少個早上七八點出門到晚上 12 點後回到宿舍的日子。<a id="more"></a>
+
+</li>
+</ul>
+<h3 id="總結這學期"><a href="#總結這學期" class="headerlink" title="總結這學期"></a>總結這學期</h3><ul>
+<li>修課</li>
+<li>專題</li>
+<li>實習</li>
+<li>打球 &amp; 中資盃</li>
+<li>準備出國程序</li>
+<li>研究保險</li>
+</ul>
+<h3 id="專題"><a href="#專題" class="headerlink" title="專題"></a>專題</h3><ul>
+<li><p>從專題一結束後，就跟我的專題隊友拖拖拉拉到開學才決定專題二要換指導教授，換成跟張永儒教授做他們實驗室的一個計畫。這個計畫叫做 SYNC 新聞共編平台，簡單來說就是把 wiki 共同編輯的概念引入到新聞，讓大家可以有一個平台可以共編新聞，透過群眾外包打擊假新聞，同時也可以避免掉有顏色的新聞媒體因為立場而寫出偏頗的新聞報導。</p>
+</li>
+<li><p>這學次的專題很單純，就負責前端的部分，有後端有 UX 組的設計稿，我們只要負責前端就好，目前還沒有上線，所以就先不放上來了。</p>
+<ul>
+<li>值得一提的事情是，為了要應付學期末10頁的專題報告，於是我稍微鑽研了一下現今社群網路的廣告和新聞，意外看到的一句話</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Jimmy Wales 說「社群網路公司純靠廣告的商業模式是有問題的，結果就是低質量的內容成了贏家。」</p>
+</blockquote>
+<ul>
+<li>這也是現在Facebook、Twitter等平台變成了各個網軍、廣告公司氾濫的場所，上面充斥著廣告、假新聞，而這些根本的原因就歸咎於他們的營利模式是運用平台本身的高關注度，並藉以投放廣告獲利，還有背後的推薦演算法造成的。</li>
+</ul>
+<h3 id="趨勢實習"><a href="#趨勢實習" class="headerlink" title="趨勢實習"></a>趨勢實習</h3><ul>
+<li>在這半年當中，因為是自己決定要出國交換的，所以決定自己負擔一切開銷，於是暑假結束又找了一個實習，一部分是要存出國的開銷，一部分也是要向爸媽證明自己的決心。還在求學的階段，出國交換這筆金額說多不多說少不少，但是說要自己扛真的會有不少壓力。</li>
+</ul>
+<p><img src="https://i.imgur.com/5KTgDta.jpg" alt></p>
+<div class="img-description">趨勢科技工作證</div>
+
+<h3 id="準備出國程序"><a href="#準備出國程序" class="headerlink" title="準備出國程序"></a>準備出國程序</h3><ul>
+<li><p>準備這個真的是蠻累的，尤其是自己一到五都排滿行程，但是無奈郵局銀行還是很不現代化的要求你要臨櫃本人親自辦理業務，但是又只有一到五上班，下午四五點就關門，這種時候真的就是煩到不行。</p>
+</li>
+<li><p>還有就是簽證申請超麻煩，更麻煩的是還因為奇怪的理由退你簽證，到現在還是覺得很鳥。有機會再補上申請交換的趣事跟流程好了，有太多更想寫的東西躺在草稿夾了&gt;&lt;</p>
+</li>
+<li><p>對交換有興趣的人可以看我交換系列的文章 <a href="https://holychung.github.io/2020/02/29/Linkoping-%E7%91%9E%E5%85%B8%E6%9E%97%E9%9B%AA%E5%B9%B3%E5%A4%A7%E5%AD%B8%E4%BA%A4%E6%8F%9B-2020-Spring/" target="_blank" rel="noopener">Linköping 瑞典林雪平大學交換 2020 Spring</a></p>
+</li>
+</ul>
+<h3 id="打球-amp-中資盃"><a href="#打球-amp-中資盃" class="headerlink" title="打球 &amp; 中資盃"></a>打球 &amp; 中資盃</h3><ul>
+<li><p>大約是在中資盃前一兩個月發現這次盃賽就是人生中最後一場盃賽了，因為沒打算唸研究所加上下學期要出國交換(一月的大資盃也打不到)，這種感覺還蠻奇妙的，仿佛還沒打多久球就要畢業了，系排真的是一個很多感動的地方，不過已經打過一篇長文了，就不再多說什麼。既然知道是最後一場盃賽了，即使很忙還是更勤奮的練球，一部分也是想要去幫忙鍛鍊個學弟，或許也是一種傳承的使命感。</p>
+</li>
+<li><p>總之，最後一場盃賽打到了第四名，雖然沒有獎杯，但是…好爽！</p>
+</li>
+</ul>
+<p><img src="https://i.imgur.com/5WHEi21.jpg" alt></p>
+<div class="img-description">中資盃殿軍</div>
+
+
+
+<h3 id="修課"><a href="#修課" class="headerlink" title="修課"></a>修課</h3><ul>
+<li>愛亂修課的老毛病一如往常的在選課的季節又發作了，到了大四還是選了一堆課，不過這學期修了一堆好課，也算是累得值得了。</li>
+</ul>
+<h5 id="基本設計初階-人文社會學院院本部-蔡偉彬"><a href="#基本設計初階-人文社會學院院本部-蔡偉彬" class="headerlink" title="基本設計初階 人文社會學院院本部 蔡偉彬"></a>基本設計初階 人文社會學院院本部 蔡偉彬</h5><ul>
+<li>這門課太屌了，我應該會寫一篇長文來介紹，但是還躺在草稿裡面Q</li>
+</ul>
+<h5 id="使用者中心互動介面設計-資科工所-張永儒"><a href="#使用者中心互動介面設計-資科工所-張永儒" class="headerlink" title="使用者中心互動介面設計 資科工所 張永儒"></a>使用者中心互動介面設計 資科工所 張永儒</h5><ul>
+<li>一樣躺在草稿裡面Q</li>
+</ul>
+<h5 id="領域學程的16堂課-教務處-張兆恬-邱羽凡"><a href="#領域學程的16堂課-教務處-張兆恬-邱羽凡" class="headerlink" title="領域學程的16堂課 教務處 張兆恬,邱羽凡"></a>領域學程的16堂課 教務處 張兆恬,邱羽凡</h5><ul>
+<li>是一門演講課，每週的邀請到的講者，都是各個領域、社會運動、社會議題的重要人物，主題也很貼近我們的生活，縱使我們可能不一定很關切這些議題，包含台灣的死刑、法律上的冤獄案件、青年參政、醫療體系的不足等等，每個議題都是可以讓我們更認識到了台灣目前的狀況，更了解到一些不為人知的現實面，當然更讓我們深信有這麼一群人默默的在為了這些議題推動改變，讓台灣的體制或者是人們的價值觀能稍微產生改變，哪怕是就只能有這麼的一點點微乎其為的改變。</li>
+<li>第一堂是邀請到作家林立青來演講，這是我第一次接觸到這個作家，令我印象深刻，有興趣的可以去看我寫的另一篇關於 <a href="https://holychung.github.io/2020/02/29/%E4%BD%9C%E5%AE%B6%E6%9E%97%E7%AB%8B%E9%9D%92%E3%80%8A%E5%81%9A%E5%B7%A5%E7%9A%84%E4%BA%BA%E3%80%8B%E3%80%8A%E5%A6%82%E6%AD%A4%E4%BA%BA%E7%94%9F%E3%80%8B/" target="_blank" rel="noopener">作家林立青《做工的人》《如此人生》</a>。</li>
+</ul>
+<h5 id="全民國防教育軍事訓練課程－全民國防-軍訓室-邱慧美"><a href="#全民國防教育軍事訓練課程－全民國防-軍訓室-邱慧美" class="headerlink" title="全民國防教育軍事訓練課程－全民國防 軍訓室 邱慧美"></a>全民國防教育軍事訓練課程－全民國防 軍訓室 邱慧美</h5><ul>
+<li>修軍訓的好處就是可以抵兵役！這學期修的這門課算是蠻輕鬆的，教官人超好，作業報告考試的量也不算太多，超級無敵推。</li>
+<li>學期中有一次被學校規定要參加一個什麼友善校園週還是什麼的，全班帶到浩然草皮的攤位晃晃，讓大家離開教室動一下，剛好那時候跟教官聊了一下，聊一下教官當初是為什麼選擇這一條路，還有軍中一些奇怪的制度等等，雖然平常有嚴肅的一面，但是坐下聊天發現教官也是很好相處的！</li>
+</ul>
+<h5 id="資訊工程研討-資訊學院共同課程-林盈達"><a href="#資訊工程研討-資訊學院共同課程-林盈達" class="headerlink" title="資訊工程研討 資訊學院共同課程 林盈達"></a>資訊工程研討 資訊學院共同課程 林盈達</h5><ul>
+<li>研討課大概就是大一無聊的導師時間的進化版的感覺，一樣是每週都聽一堆無聊的演講，還沒有學分可以拿又要卡一個時間，然後還不能翹課超過兩次，到底(?)</li>
+<li>印象深刻的大概有兩個講者，印象中一個是工研院還是聯發科被派去 3GPP 開會的大佬，講了很多關於 3GPP 內部的事情還蠻有趣的。另一個是台大的一個教授，講的內容是他們實驗室原本做的一套算法，然後有加上 UX 的研究調查去訪問測試者，還有在 Amazon’s Mechanical Turk 上 crowdsourcing 的分享，一些細節已經忘記了，但是聽到覺得超厲害的，差一點衝動去台大找他當指導教授唸研究所了。</li>
+</ul>
+<h5 id="資訊工程專題-二-英文授課-資訊學院共同課程-林盈達"><a href="#資訊工程專題-二-英文授課-資訊學院共同課程-林盈達" class="headerlink" title="資訊工程專題(二)(英文授課) 資訊學院共同課程 林盈達"></a>資訊工程專題(二)(英文授課) 資訊學院共同課程 林盈達</h5><ul>
+<li><p>上面寫過拉！不過期末報告還蠻有趣的，期末每組的專題都要在工三大廳展出並報告，不過我跟我的隊友兩人的個性一直都不是很在乎這些，我們就是只想做自己想做的事，看了一下專二的配分，還曾經想說乾脆不要教好了。最後在要上傳報告的死線當天才開始弄，印象中大概是要交 10 頁的報告說明跟一張海報，也是極限的跟時間賽跑了一下。</p>
+</li>
+<li><p>最後成果展當天，原本以為我們這麼臨時趕出來的東西會很陽春，不過晃了一圈看看其他組做的專題，還真的是一大半都在混分或是應付的，不經又感嘆了一下台灣的這種教育制度，不說這個，還是有幾組做的專題是很有內容的，印象深刻的一組是用機器學習做踢足球的 AI 遊戲。</p>
+</li>
+<li><p>有別於其他組別的敷衍，光是看海報的介紹就可以感受得到他們是有在用心且是有投入時間下去做的，雖然我對這領域不是到很深入了解，但是還是去跟那位同學問了一點技術細節，稍微問一下就可以知道是真材實料的，幾個問題馬上就讓我搞清楚了他們的現況、優缺點和能改進的地方，怎麼透過獎勵機制學習，或是不斷的試驗、改良的遞迴過程，最後才決定出現在這個版本的成果。在跟這位同學聊天的過程，我感受到了他對自己做的東西所散發出的熱忱和光芒！</p>
+</li>
+</ul>
+<h3 id="研究保險"><a href="#研究保險" class="headerlink" title="研究保險"></a>研究保險</h3><ul>
+<li>主要是因為自己未來有規劃要動個小醫療手術，剛好因緣際會在網路上認識了一個懂保險的人，於是就開始研究起保險這個未知的領域，花了不少時間研究，這一波研究下來收穫非常的多，雖然不到精通但是未來要轉行賣保險應該也是可以了（開玩笑）。總之，詳細的先不說太多，之後有機會再分享一下。</li>
+</ul>
+<blockquote>
+<p>文章同步至 <a href="https://medium.com/@mickey94378" target="_blank" rel="noopener">Medium 平台</a></p>
+</blockquote>
+<style>
+.img-description{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 0.8rem;
+    margin-top: 5px;
+    line-height: 1.8;
+}</style>
+    </div>
+
+    
+    
+    
+        
+      
+      
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/tags/交大/" rel="tag"><i class="fa fa-tag"></i> 交大</a>
+            
+              <a href="/tags/NCTU/" rel="tag"><i class="fa fa-tag"></i> NCTU</a>
+            
+              <a href="/tags/CS/" rel="tag"><i class="fa fa-tag"></i> CS</a>
+            
+              <a href="/tags/資工/" rel="tag"><i class="fa fa-tag"></i> 資工</a>
+            
+          </div>
+        
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/2020/02/29/作家林立青《做工的人》《如此人生》/" rel="next" title="作家林立青《做工的人》《如此人生》">
+                  <i class="fa fa-chevron-left"></i> 作家林立青《做工的人》《如此人生》
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+                <a href="/2020/02/29/【交換日記】Linkoping-瑞典林雪平大學交換-2020-Spring/" rel="prev" title="【交換日記】Linköping 瑞典林雪平大學交換 2020 Spring">
+                  【交換日記】Linköping 瑞典林雪平大學交換 2020 Spring <i class="fa fa-chevron-right"></i>
+                </a>
+              
+            </div>
+          </div>
+        
+      </footer>
+    
+
+  </div>
+  
+  
+  
+  </article>
+
+  </div>
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+        
+        
+        
+        
+      
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#大四上回顧"><span class="nav-number">1.</span> <span class="nav-text">大四上回顧</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#總結這學期"><span class="nav-number">2.</span> <span class="nav-text">總結這學期</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#專題"><span class="nav-number">3.</span> <span class="nav-text">專題</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#趨勢實習"><span class="nav-number">4.</span> <span class="nav-text">趨勢實習</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#準備出國程序"><span class="nav-number">5.</span> <span class="nav-text">準備出國程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#打球-amp-中資盃"><span class="nav-number">6.</span> <span class="nav-text">打球 &amp; 中資盃</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修課"><span class="nav-number">7.</span> <span class="nav-text">修課</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#基本設計初階-人文社會學院院本部-蔡偉彬"><span class="nav-number">7.0.1.</span> <span class="nav-text">基本設計初階 人文社會學院院本部 蔡偉彬</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#使用者中心互動介面設計-資科工所-張永儒"><span class="nav-number">7.0.2.</span> <span class="nav-text">使用者中心互動介面設計 資科工所 張永儒</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#領域學程的16堂課-教務處-張兆恬-邱羽凡"><span class="nav-number">7.0.3.</span> <span class="nav-text">領域學程的16堂課 教務處 張兆恬,邱羽凡</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#全民國防教育軍事訓練課程－全民國防-軍訓室-邱慧美"><span class="nav-number">7.0.4.</span> <span class="nav-text">全民國防教育軍事訓練課程－全民國防 軍訓室 邱慧美</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#資訊工程研討-資訊學院共同課程-林盈達"><span class="nav-number">7.0.5.</span> <span class="nav-text">資訊工程研討 資訊學院共同課程 林盈達</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#資訊工程專題-二-英文授課-資訊學院共同課程-林盈達"><span class="nav-number">7.0.6.</span> <span class="nav-text">資訊工程專題(二)(英文授課) 資訊學院共同課程 林盈達</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#研究保險"><span class="nav-number">8.</span> <span class="nav-text">研究保險</span></a></li></ol></div>
+        
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image"
+      src="/images/avatar.jpg"
+      alt="Holy Chung">
+  <p class="site-author-name" itemprop="name">Holy Chung</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <nav class="site-state motion-element">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+          
+            <a href="/tags/">
+          
+        
+        <span class="site-state-item-count">34</span>
+        <span class="site-state-item-name">tags</span>
+        </a>
+      </div>
+    
+  </nav>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://github.com/Holychung" title="GitHub &rarr; https://github.com/Holychung" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://www.facebook.com/profile.php?id=100003092859714&ref=bookmarks" title="FB Page &rarr; https://www.facebook.com/profile.php?id=100003092859714&ref=bookmarks" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i>FB Page</a>
+      </span>
+    
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="post-meta-divider"></span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user-circle"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Holy Chung</span>
+
+  <!--
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">Symbols count total: </span>
+    
+    <span title="Symbols count total">42k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">Reading time total &asymp;</span>
+    
+    <span title="Reading time total">1:11</span> -->
+</div>
+
+<!-- <i class="fa fa-user-md"></i>
+<span>
+  Views <span id="busuanzi_value_site_pv"></span>
+</span>
+
+<i class="fa fa-user-md"></i>
+<span> 
+  Guests <span id="busuanzi_value_site_uv"></span>
+</span> -->
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+  
+    <span class="post-meta-divider"></span>
+  
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+
+
+  <script src="/lib/anime.min.js?v=3.1.0"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+<script src="/js/utils.js?v=7.4.0"></script><script src="/js/motion.js?v=7.4.0"></script>
+<script src="/js/schemes/pisces.js?v=7.4.0"></script>
+<script src="/js/next-boot.js?v=7.4.0"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+</body>
+</html>
